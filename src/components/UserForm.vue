@@ -1,6 +1,6 @@
 <template>
   <section class="flex flex-col items-center mt-32">
-    <form action="POST" @submit="submitForm" class="bg-white shadow-lg rounded px-8 pt-6 pb-8 mb-4">
+    <form action="http://localhost:3000/" method="POST" @submit.prevent="submitForm" class="bg-white shadow-lg rounded px-8 pt-6 pb-8 mb-4">
       <div class="py-4">
       <h1 class="text-xl">Sign up to our newsletter</h1>
       <h2 class="text-md">Fill in your details below:</h2>
