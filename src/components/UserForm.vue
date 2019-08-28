@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col items-center mt-12">
+  <section class="flex flex-col items-center mt-32">
     <form action="POST" @submit="submitForm" class="bg-white shadow-lg rounded px-8 pt-6 pb-8 mb-4">
       <div class="py-4">
       <h1 class="text-xl">Sign up to our newsletter</h1>
