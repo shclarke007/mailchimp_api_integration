@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <user-form />
+    <user-form @submit-form="handleFormSubmit"/>
   </div>
 </template>
 
@@ -11,6 +11,11 @@ export default {
   name: 'app',
   components: {
     UserForm
+  },
+  methods:{
+    handleFormSubmit(){
+
+    }
   }
 }
 </script>
